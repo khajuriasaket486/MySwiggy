@@ -1,2 +1,2 @@
 # MySwiggy
-Swiggy Resturant Management and Food Management
+Swiggy Restaurant Management and Food Management  

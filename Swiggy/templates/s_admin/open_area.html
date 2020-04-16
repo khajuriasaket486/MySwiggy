@@ -47,7 +47,7 @@
                      </form>
                  {% elif update_data %}
 
-                    <form action="{% url 'update_state_data' %}" method="post">
+                    <form action="{% url 'update_area_data' %}" method="post">
                     {% csrf_token %}
                      <table align="center" border="2" bgcolor="#f5deb3" width="500">
                     <tr>
@@ -56,14 +56,14 @@
                         </th>
                     </tr>
                         <tr>
-                        <th style="text-align: center;" height="60">State No</th>
+                        <th style="text-align: center;" height="60">Area No</th>
                         <th style="text-align: center">{{ update_data.sno }}
                         <input type="hidden" value="{{ update_data.sno }}" name="s1">
                         </th>
 
                     </tr>
                     <tr>
-                        <th style="text-align: center;" height="60" >State Name</th>
+                        <th style="text-align: center;" height="60" >Area Name</th>
                         <th style="text-align: center">
                             <input type="text" value="{{ update_data.sname }}" name="s2">
                         </th>
@@ -97,15 +97,15 @@
                     <th style="text-align: center" width="200">{{ x.city.city_name }}</th>
                     <th style="text-align: center" width="100">
 
-{#                        <a href="{% url 'update_state' %}?sno={{ x.state_no }}&sname={{ x.state_name }}">#}
-{#                            <img src="{% static 'images/refresh-page-option.png' %}" width="25" height="25">#}
-{#                        </a>#}
+                        <a href="{% url 'update_area' %}?sno={{ x.area_no }}&sname={{ x.area_name }}">
+                            <img src="{% static 'images/refresh-page-option.png' %}" width="25" height="25">
+                        </a>
 
                     </th>
                     <th style="text-align: center" width="100">
-{#                        <a href="{% url 'delete_state' %}?sno={{ x.state_no }}">#}
-{#                            <img src="{% static 'images/delete.png' %}" width="25" height="25">#}
-{#                        </a>#}
+                        <a href="{% url 'delete_area' %}?sno={{ x.area_no }}">
+                            <img src="{% static 'images/delete.png' %}" width="25" height="25">
+                        </a>
                     </th>
                 </tr>
                 {% endfor %}

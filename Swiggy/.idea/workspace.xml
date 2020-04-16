@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2806cd5-b6eb-4772-ae17-8d1b2c119f43" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Swiggy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Swiggy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s_admin/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/s_admin/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s_admin/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/s_admin/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/s_admin/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/s_admin/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/s_admin/open_area.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/s_admin/open_area.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/s_admin/open_city.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/s_admin/open_city.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/s_admin/open_state.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/s_admin/open_state.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/s_admin/open_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/s_admin/open_type.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,16 +33,16 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
       </path>
@@ -95,14 +100,46 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-2077941803">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="4" />
+          <entry key="sql" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="4" />
+          <entry key="Scratch" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="8" />
+          <entry key="py@Swiggy" value="39" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CommandLine" value="39" />
+          <entry key="Python" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/s_admin/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+            <state relative-caret-position="206">
+              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
               <folding>
                 <element signature="e#630#662#0" expanded="true" />
               </folding>
@@ -110,11 +147,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/s_admin/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="140" column="40" selection-start-line="140" selection-start-column="40" selection-end-line="140" selection-end-column="40" />
+            <state relative-caret-position="400">
+              <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -122,10 +159,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/s_admin/cancel_res.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-428">
+            <state relative-caret-position="20">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#350#432#0#HTML" expanded="true" />
@@ -135,10 +172,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restaurant/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restaurant/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+              <folding>
+                <element signature="e#630#662#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Swiggy/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+              <folding>
+                <element signature="e#630#662#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/s_admin/approved_res.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="61" lean-forward="true" selection-end-line="65" selection-end-column="14" />
+            <state relative-caret-position="1220">
+              <caret line="61" selection-end-line="65" selection-end-column="14" />
               <folding>
                 <element signature="e#350#434#0#HTML" expanded="true" />
               </folding>
@@ -149,8 +222,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/s_admin/pending_res.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="45" column="58" lean-forward="true" selection-end-line="71" selection-end-column="14" />
+            <state relative-caret-position="900">
+              <caret line="45" column="58" selection-end-line="71" selection-end-column="14" />
               <folding>
                 <element signature="e#338#422#0#HTML" expanded="true" />
                 <element signature="e#1234#1260#0#HTML" expanded="true" />
@@ -163,8 +236,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/s_admin/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+            <state relative-caret-position="600">
+              <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -208,10 +281,10 @@
         <option value="$PROJECT_DIR$/restaurant/views.py" />
         <option value="$PROJECT_DIR$/templates/s_admin/pending_res.html" />
         <option value="$PROJECT_DIR$/templates/s_admin/menu.html" />
-        <option value="$PROJECT_DIR$/s_admin/urls.py" />
-        <option value="$PROJECT_DIR$/s_admin/views.py" />
         <option value="$PROJECT_DIR$/templates/s_admin/approved_res.html" />
         <option value="$PROJECT_DIR$/templates/s_admin/cancel_res.html" />
+        <option value="$PROJECT_DIR$/s_admin/urls.py" />
+        <option value="$PROJECT_DIR$/s_admin/views.py" />
       </list>
     </option>
   </component>
@@ -221,7 +294,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="510" />
     <option name="y" value="15" />
     <option name="width" value="1040" />
@@ -246,6 +319,21 @@
             <path>
               <item name="Swiggy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Swiggy" type="462c0819:PsiDirectoryNode" />
+              <item name="restaurant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Swiggy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swiggy" type="462c0819:PsiDirectoryNode" />
+              <item name="s_admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Swiggy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swiggy" type="462c0819:PsiDirectoryNode" />
+              <item name="Swiggy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Swiggy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swiggy" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -264,6 +352,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/db.sqlite3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -332,10 +421,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1107" height="602" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24928367" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24886535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -345,19 +434,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="manage.py@Swiggy" order="7" weight="0.79148936" />
+      <window_info anchor="bottom" id="manage.py@Swiggy" order="7" weight="0.7905074" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32978722" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.71276593" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.7119476" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.3295129" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.3290469" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24928367" />
@@ -438,28 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
           <caret line="94" column="53" lean-forward="true" selection-end-line="116" selection-end-column="14" />
-          <folding>
-            <element signature="e#287#552#0#HTML" />
-            <element signature="e#526#568#0#HTML" expanded="true" />
-            <element signature="e#709#746#0#HTML" expanded="true" />
-            <element signature="e#795#821#0#HTML" expanded="true" />
-            <element signature="e#998#1024#0#HTML" expanded="true" />
-            <element signature="e#1378#1420#0#HTML" expanded="true" />
-            <element signature="e#1587#1614#0#HTML" expanded="true" />
-            <element signature="e#1687#1713#0#HTML" expanded="true" />
-            <element signature="e#1577#1604#0#HTML" expanded="true" />
-            <element signature="e#1677#1703#0#HTML" expanded="true" />
-            <element signature="e#1880#1906#0#HTML" expanded="true" />
-            <element signature="e#1288#1314#0#HTML" expanded="true" />
-            <element signature="e#1368#1394#0#HTML" expanded="true" />
-            <element signature="e#1429#1455#0#HTML" expanded="true" />
-            <element signature="e#1492#1518#0#HTML" expanded="true" />
-            <element signature="e#1703#1729#0#HTML" expanded="true" />
-            <element signature="e#1773#1799#0#HTML" expanded="true" />
-            <element signature="e#1846#1872#0#HTML" expanded="true" />
-            <element signature="e#1921#1947#0#HTML" expanded="true" />
-            <element signature="e#619#697#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -467,27 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
           <caret line="112" column="13" lean-forward="true" selection-end-line="127" selection-end-column="14" />
-          <folding>
-            <element signature="e#564#606#0#HTML" expanded="true" />
-            <element signature="e#1066#1092#0#HTML" expanded="true" />
-            <element signature="e#1535#1577#0#HTML" expanded="true" />
-            <element signature="e#1744#1771#0#HTML" expanded="true" />
-            <element signature="e#1826#1852#0#HTML" expanded="true" />
-            <element signature="e#2071#2098#0#HTML" expanded="true" />
-            <element signature="e#2156#2182#0#HTML" expanded="true" />
-            <element signature="e#2396#2422#0#HTML" expanded="true" />
-            <element signature="e#2734#2760#0#HTML" expanded="true" />
-            <element signature="e#2816#2842#0#HTML" expanded="true" />
-            <element signature="e#3330#3356#0#HTML" expanded="true" />
-            <element signature="e#2889#2915#0#HTML" expanded="true" />
-            <element signature="e#2964#2990#0#HTML" expanded="true" />
-            <element signature="e#3124#3150#0#HTML" expanded="true" />
-            <element signature="e#3208#3234#0#HTML" expanded="true" />
-            <element signature="e#3818#3844#0#HTML" expanded="true" />
-            <element signature="e#3295#3321#0#HTML" expanded="true" />
-            <element signature="e#3631#3657#0#HTML" expanded="true" />
-            <element signature="e#4045#4123#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -533,9 +579,6 @@
           <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding>
             <element signature="e#1#25#0" expanded="true" />
-            <marker date="1586962787403" expanded="true" signature="219:224" ph="..." />
-            <marker date="1586962787403" expanded="true" signature="329:430" ph="..." />
-            <marker date="1586962787403" expanded="true" signature="607:612" ph="..." />
           </folding>
         </state>
       </provider>
@@ -551,16 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swiggy/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding>
-            <element signature="e#630#662#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -585,24 +618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restaurant/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="56" />
-          <folding>
-            <element signature="e#1#25#0" expanded="true" />
-            <marker date="1586968048320" expanded="true" signature="191:196" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/restaurant/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="e#304#330#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -613,34 +632,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restaurant/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="e#630#662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/restaurant/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restaurant/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1586968019610" expanded="true" signature="151:156" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -655,21 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <marker date="1586965877426" expanded="true" signature="238:243" ph="..." />
-            <marker date="1586965877426" expanded="true" signature="436:441" ph="..." />
-            <marker date="1586965877426" expanded="true" signature="686:687" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s_admin/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-          <folding>
-            <element signature="e#630#662#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -680,17 +660,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/s_admin/menu.html">
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/approved_res.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+        <state relative-caret-position="1220">
+          <caret line="61" selection-end-line="65" selection-end-column="14" />
+          <folding>
+            <element signature="e#350#434#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/s_admin/pending_res.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="45" column="58" lean-forward="true" selection-end-line="71" selection-end-column="14" />
+        <state relative-caret-position="900">
+          <caret line="45" column="58" selection-end-line="71" selection-end-column="14" />
           <folding>
             <element signature="e#338#422#0#HTML" expanded="true" />
             <element signature="e#1234#1260#0#HTML" expanded="true" />
@@ -699,32 +682,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/s_admin/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="140" column="40" selection-start-line="140" selection-start-column="40" selection-end-line="140" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/s_admin/approved_res.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="61" lean-forward="true" selection-end-line="65" selection-end-column="14" />
-          <folding>
-            <element signature="e#350#434#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="600">
+          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/s_admin/cancel_res.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-428">
+        <state relative-caret-position="20">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#350#432#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/29a9593b-c450-41f5-87b1-0b60762850a9/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#1#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swiggy/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s_admin/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s_admin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>

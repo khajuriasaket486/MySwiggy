@@ -112,14 +112,14 @@ def update_area(request):
     sno = request.GET.get("sno")
     sname = request.GET.get("sname")
     d1 = {"sno": sno, "sname": sname}
-    return render(request, "s_admin/open_area.html", {"update_data": d1, "sdata": CityModel.objects.all()})
+    return render(request, "s_admin/open_area.html", {"update_data": d1, "sdata": AreaModel.objects.all()})
 
 
 def update_area_data(request):
     sno = request.POST.get("s1")
     sname = request.POST.get("s2")
     AreaModel.objects.filter(area_no=sno).update(area_name=sname)
-    return redirect('open_city')
+    return redirect('open_area')
 
 
 def delete_area(request):
